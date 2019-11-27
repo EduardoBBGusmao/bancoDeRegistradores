@@ -1,0 +1,42 @@
+module reg_32(in,Q, writereg, readreg);
+ input wire in[0:31];
+ output Q[0:31];
+ input wire writereg;
+ input readreg;
+ wire clk;
+ assign clk = (readreg == 1) ? 0 : writereg ;
+
+ reg_d pos0 (.D (in[0]),.clk (clk), .Q (Q[0]));
+ reg_d pos1 (.D (in[1]),.clk (clk), .Q (Q[1]));
+ reg_d pos2 (.D (in[2]),.clk (clk), .Q (Q[2]));
+ reg_d pos3 (.D (in[3]),.clk (clk), .Q (Q[3]));
+ reg_d pos4 (.D (in[4]),.clk (clk), .Q (Q[4]));
+ reg_d pos5 (.D (in[5]),.clk (clk), .Q (Q[5]));
+ reg_d pos6 (.D (in[6]),.clk (clk), .Q (Q[6]));
+ reg_d pos7 (.D (in[7]),.clk (clk), .Q (Q[7]));
+ reg_d pos8 (.D (in[8]),.clk (clk), .Q (Q[8]));
+ reg_d pos9 (.D (in[9]),.clk (clk), .Q (Q[9]));
+ reg_d pos10 (.D (in[10]), .clk (clk), .Q (Q[10]));
+ reg_d pos11 (.D (in[11]), .clk (clk), .Q (Q[11]));
+ reg_d pos12 (.D (in[12]), .clk (clk), .Q (Q[12]));
+ reg_d pos13 (.D (in[13]), .clk (clk), .Q (Q[13]));
+ reg_d pos14 (.D (in[14]), .clk (clk), .Q (Q[14]));
+ reg_d pos15 (.D (in[15]), .clk (clk), .Q (Q[15]));
+ reg_d pos16 (.D (in[16]), .clk (clk), .Q (Q[16]));
+ reg_d pos17 (.D (in[17]), .clk (clk), .Q (Q[17]));
+ reg_d pos18 (.D (in[18]), .clk (clk), .Q (Q[18]));
+ reg_d pos19 (.D (in[19]), .clk (clk), .Q (Q[19]));
+ reg_d pos20 (.D (in[20]), .clk (clk), .Q (Q[20]));
+ reg_d pos21 (.D (in[21]), .clk (clk), .Q (Q[21]));
+ reg_d pos22 (.D (in[22]), .clk (clk), .Q (Q[22]));
+ reg_d pos23 (.D (in[23]), .clk (clk), .Q (Q[23]));
+ reg_d pos24 (.D (in[24]), .clk (clk), .Q (Q[24]));
+ reg_d pos25 (.D (in[25]), .clk (clk), .Q (Q[25]));
+ reg_d pos26 (.D (in[26]), .clk (clk), .Q (Q[26]));
+ reg_d pos27 (.D (in[27]), .clk (clk), .Q (Q[27]));
+ reg_d pos28 (.D (in[28]), .clk (clk), .Q (Q[28]));
+ reg_d pos29 (.D (in[29]), .clk (clk), .Q (Q[29]));
+ reg_d pos30 (.D (in[30]), .clk (clk), .Q (Q[30]));
+ reg_d pos31 (.D (in[31]), .clk (clk), .Q (Q[31]));
+endmodule
+

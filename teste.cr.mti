@@ -1,0 +1,27 @@
+C:/Users/eduar/OneDrive/Documentos/projeto/reg_32.v {1 {vlog -work work -stats=none {C:\Users\eduar\OneDrive\Documentos\projeto\reg_32.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module reg_32
+
+Top level modules:
+	reg_32
+
+} {} {}} C:/Users/eduar/OneDrive/Documentos/projeto/testbench.v {0 {vlog -work work -stats=none C:/Users/eduar/OneDrive/Documentos/projeto/testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module testbench
+** Error: C:/Users/eduar/OneDrive/Documentos/projeto/testbench.v(9): (vlog-2110) Illegal reference to net "data".
+
+} {4.0 5.0} {}} C:/Users/eduar/OneDrive/Documentos/projeto/registrador_d.v {1 {vlog -work work -stats=none {C:\Users\eduar\OneDrive\Documentos\projeto\registrador_d.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module registrador_d
+
+Top level modules:
+	registrador_d
+
+} {} {}} C:/Users/eduar/OneDrive/Documentos/projeto/reg_d.v {1 {vlog -work work -stats=none C:/Users/eduar/OneDrive/Documentos/projeto/reg_d.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module reg_d
+
+Top level modules:
+	reg_d
+
+} {} {}}

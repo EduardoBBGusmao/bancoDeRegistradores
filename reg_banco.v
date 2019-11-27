@@ -1,4 +1,4 @@
-module banco_reg (sel, selA, selB, data, ReadData1, ReadData2);
+module banco_reg (sel,RegWrite, selA, selB, data, ReadData1, ReadData2);
  input  [0:5] sel;
  input  [0:5] selA;
  input  [0:5] selB;
@@ -10,79 +10,14 @@ module banco_reg (sel, selA, selB, data, ReadData1, ReadData2);
  integer index;
  integer indexA;
  integer indexB;
+ input RegWrite;
  wire Q[0:31][0:31];
 always @(*) begin
   for (i=0;i<32;i=i+1)
     enable[i] =0;
-case(selA) 
-   (5'b00000) : indexA = 0;
-   (5'b00001) : indexA = 1;     
-   (5'b00010) :  indexA = 2;
-   (5'b00011) :  indexA = 3; 
-   (5'b00100) :  indexA = 4;     
-   (5'b00101) :  indexA = 5;
-   (5'b00110) :  indexA = 6;
-   (5'b00111) :  indexA = 7;
-   (5'b01000) :  indexA = 8;
-   (5'b01001) :  indexA = 9;
-   (5'b01010) :  indexA = 10;
-   (5'b01011) :  indexA = 11;
-   (5'b01100) :  indexA = 12;
-   (5'b01101) :  indexA = 13;
-   (5'b01110) :  indexA = 14; 
-   (5'b01111) :  indexA = 15; 
-   (5'b10000) :  indexA = 16;
-   (5'b10001) :  indexA = 17;
-   (5'b10010) :  indexA = 18;
-   (5'b10011) :  indexA = 19; 
-   (5'b10100) :  indexA = 20;
-   (5'b10101) :  indexA = 21;
-   (5'b10110) :  indexA = 22;
-   (5'b10111) :  indexA = 23; 
-   (5'b11000) :  indexA = 24;
-   (5'b11001) :  indexA = 25;
-   (5'b11010) :  indexA = 26;  
-   (5'b11011) :  indexA = 27;  
-   (5'b11100) :  indexA = 28;  
-   (5'b11101) :  indexA = 29;  
-   (5'b11110) :  indexA = 30;  
-   (5'b11111) :  indexA = 31;
-   endcase
-case(selB)
-   (5'b00000) : indexB = 0;
-   (5'b00001) : indexB = 1;     
-   (5'b00010) :  indexB = 2;
-   (5'b00011) :  indexB = 3; 
-   (5'b00100) :  indexB = 4;     
-   (5'b00101) :  indexB = 5;
-   (5'b00110) :  indexB = 6;
-   (5'b00111) :  indexB = 7;
-   (5'b01000) :  indexB = 8;
-   (5'b01001) :  indexB = 9;
-   (5'b01010) :  indexB = 10;
-   (5'b01011) :  indexB = 11;
-   (5'b01100) :  indexB = 12;
-   (5'b01101) :  indexB = 13;
-   (5'b01110) :  indexB = 14; 
-   (5'b01111) :  indexB = 15; 
-   (5'b10000) :  indexB = 16;
-   (5'b10001) :  indexB = 17;
-   (5'b10010) :  indexB = 18;
-   (5'b10011) :  indexB = 19; 
-   (5'b10100) :  indexB = 20;
-   (5'b10101) :  indexB = 21;
-   (5'b10110) :  indexB = 22;
-   (5'b10111) :  indexB = 23; 
-   (5'b11000) :  indexB = 24;
-   (5'b11001) :  indexB = 25;
-   (5'b11010) :  indexB = 26;  
-   (5'b11011) :  indexB = 27;  
-   (5'b11100) :  indexB = 28;  
-   (5'b11101) :  indexB = 29;  
-   (5'b11110) :  indexB = 30;  
-   (5'b11111) :  indexB = 31;
-   endcase
-case(sel) 
+
+if(RegWrite == 1) begin
+   case(sel) 
    (5'b00001) : enable[1] = 1;     
    (5'b00010) : enable[2] = 1;
    (5'b00011) : enable[3] = 1; 
@@ -115,6 +50,7 @@ case(sel)
    (5'b11110) : enable[30] = 1;  
    (5'b11111) : enable[31] = 1;
    endcase
+end
 end
 
 reg_32 zero(.in(data),.Q (Q[0]), .writereg (enable[0]),.readreg(0)); 
@@ -151,7 +87,8 @@ reg_32 fp(.in(data),.Q (Q[30]), .writereg (enable[30]),.readreg(0));
 reg_32 ra(.in(data),.Q (Q[31]), .writereg (enable[31]),.readreg(0));
 
 //always @(*) begin
-assign ReadData1[0:31] = Q[0];
+assign ReadData1[0:31] = Q[selA];
+assign ReadData2[0:31] = Q[selB];
 //end
 
 endmodule

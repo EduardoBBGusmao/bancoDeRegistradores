@@ -159,3 +159,256 @@ vsim work.banco_reg
 # Compile of testbench.v failed with 1 errors.
 # Compile of testbench.v failed with 1 errors.
 # Compile of testbench.v was successful.
+# Compile of reg_banco.v was successful.
+# Compile of reg_banco.v was successful.
+vsim work.banco_reg
+# End time: 12:49:16 on Nov 27,2019, Elapsed time: 1:45:12
+# Errors: 165, Warnings: 32
+# vsim work.banco_reg 
+# Start time: 12:49:16 on Nov 27,2019
+# Loading work.banco_reg
+# Loading work.reg_32
+# Loading work.reg_d
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/zero File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 120
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/at File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 121
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/v0 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 122
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/v1 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 123
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/a0 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 124
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/a1 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 125
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/a2 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 126
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/a3 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 127
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/t0 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 128
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/t1 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 129
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/t2 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 130
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/t3 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 131
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/t4 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 132
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/t5 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 133
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/t6 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 134
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/t7 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 135
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/s0 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 136
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/s1 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 137
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/s2 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 138
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/s3 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 139
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/s4 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 140
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/s5 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 141
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/s6 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 142
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/s7 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 143
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/t8 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 144
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/t9 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 145
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/k0 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 146
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/k1 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 147
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/gp File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 148
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/sp File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 149
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/fp File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 150
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /banco_reg/ra File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 151
+vsim work.testbench
+# End time: 12:49:55 on Nov 27,2019, Elapsed time: 0:00:39
+# Errors: 94, Warnings: 32
+# vsim work.testbench 
+# Start time: 12:49:55 on Nov 27,2019
+# Loading work.testbench
+# Loading work.banco_reg
+# Loading work.reg_32
+# Loading work.reg_d
+# ** Error (suppressible): (vsim-3389) Port 'RegWrite' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/testbench.v Line: 51
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/zero File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 120
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/at File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 121
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/v0 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 122
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/v1 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 123
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/a0 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 124
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/a1 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 125
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/a2 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 126
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/a3 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 127
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/t0 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 128
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/t1 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 129
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/t2 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 130
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/t3 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 131
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/t4 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 132
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/t5 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 133
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/t6 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 134
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/t7 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 135
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/s0 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 136
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/s1 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 137
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/s2 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 138
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/s3 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 139
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/s4 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 140
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/s5 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 141
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/s6 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 142
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/s7 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 143
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/t8 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 144
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/t9 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 145
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/k0 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 146
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/k1 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 147
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/gp File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 148
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/sp File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 149
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/fp File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 150
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/ra File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 151
+# Error loading design
+# End time: 12:49:56 on Nov 27,2019, Elapsed time: 0:00:01
+# Errors: 91, Warnings: 32
+vlog -work work {/home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 12:53:20 on Nov 27,2019
+# vlog -reportprogress 300 -work work /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v 
+# -- Compiling module banco_reg
+# ** Error (suppressible): /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v(86): (vlog-13299) Undefined variable: 'RegWrite'.
+# ** Error: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v(1): (vlog-2730) Undefined variable: 'RegWrite'.
+# ** Error: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v(1): (vlog-13294) Identifier must be declared with a port mode: RegWrite.
+# End time: 12:53:20 on Nov 27,2019, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /home/eduardogusmao/intelFPGA_pro/19.3/modelsim_ase/linuxaloem/vlog failed.
+# Compile of reg_banco.v was successful.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 12:53:34 on Nov 27,2019
+# Loading work.testbench
+# Loading work.banco_reg
+# Loading work.reg_32
+# Loading work.reg_d
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/zero File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 123
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/at File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 124
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/v0 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 125
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/v1 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 126
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/a0 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 127
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/a1 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 128
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/a2 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 129
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/a3 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 130
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/t0 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 131
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/t1 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 132
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/t2 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 133
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/t3 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 134
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/t4 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 135
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/t5 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 136
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/t6 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 137
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/t7 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 138
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/s0 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 139
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/s1 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 140
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/s2 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 141
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/s3 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 142
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/s4 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 143
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/s5 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 144
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/s6 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 145
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/s7 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 146
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/t8 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 147
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/t9 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 148
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/k0 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 149
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/k1 File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 150
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/gp File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 151
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/sp File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 152
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/fp File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 153
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'readreg'. The port definition is at: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test1/ra File: /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v Line: 154
+run
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_compat.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_nis.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnsl.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+force -freeze sim:/testbench/WriteRegister 010011 0
+# Compile of reg_banco.v was successful.
+run
+force -freeze sim:/testbench/RegWrite 0 0
+force -freeze sim:/testbench/ReadRegister1 10011 0
+run
+# Compile of reg_banco.v was successful.

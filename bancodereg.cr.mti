@@ -1,11 +1,4 @@
-{/home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v} {1 {vlog -work work -stats=none {/home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
--- Compiling module banco_reg
-
-Top level modules:
-	banco_reg
-
-} {} {}} {/home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_zero.v} {1 {vlog -work work -stats=none {/home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_zero.v}
+{/home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_zero.v} {1 {vlog -work work -stats=none {/home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_zero.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
 -- Compiling module reg_zero
 

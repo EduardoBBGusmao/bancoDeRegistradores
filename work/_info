@@ -10,14 +10,14 @@ z2
 cModel Technology
 dC:/Users/eduar/OneDrive/Documentos/modelsim/modelsim
 vbanco_reg
-!s110 1574947187
+!s110 1575461050
 !i10b 1
-!s100 gXPQk0ok9SgimKQSJfaX;2
-!s11b j5CJRdgBIESQjOlMDzoY[1
-Ig87hUbLnPoM7b8dP0:3T73
+!s100 eN_a;Z_KkVZTP0`O2o9Z;0
+!s11b HIzW=iPF?;Pi:jkTRQ]iR0
+I?7oXYzRB5iRie9bGlQIBE1
 Z0 VDg1SIo80bB@j0V0VzS_@n1
 Z1 d/home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto
-w1574946472
+w1575460548
 8/home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v
 F/home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v
 L0 1
@@ -25,21 +25,21 @@ Z2 OV;L;2019.2;69
 r1
 !s85 0
 31
-!s108 1574947187.000000
+!s108 1575461050.000000
 !s107 /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_banco.v|
 !i113 1
 Z3 o-work work
 Z4 tCvgOpt 0
 vreg_32
-!s110 1574900972
+!s110 1575459895
 !i10b 1
-!s100 UkCDOSlRAN9dG<bhmYNG<1
-!s11b 9HR7oBT9UbVC373Q53E243
-IGNh0X]zWHWF6l?c6I587[3
+!s100 kb]LFg]COjH0m5<I@PXlf1
+!s11b VLUg2K7aoGXhZhJ1D2SA?1
+IRT;jobi=SlfV3kMRja;zJ2
 R0
 R1
-w1574900862
+w1575459891
 8/home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v
 F/home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v
 L0 1
@@ -47,43 +47,43 @@ R2
 r1
 !s85 0
 31
-!s108 1574900972.000000
+!s108 1575459895.000000
 !s107 /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_32.v|
 !i113 1
 R3
 R4
 vreg_d
-!s110 1574900656
+!s110 1575459848
 !i10b 1
-!s100 4EdCj74L6Y:ZTah0MGWIn3
-!s11b B0ijL5=C90SI4;HD<M1Ej0
-I??RI6_1^ae`k^ieXZ2WH53
+!s100 aQZ;85?:?1I@CdnAf59LY1
+!s11b nC0bVFV;=UQaB8AICH==a0
+Imij]XmKW7S7]i6I_R6gIH1
 R0
 R1
-w1574900650
+w1575459806
 8/home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_d.v
 F/home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_d.v
-L0 1
+L0 2
 R2
 r1
 !s85 0
 31
-!s108 1574900656.000000
+!s108 1575459848.000000
 !s107 /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_d.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_d.v|
 !i113 1
 R3
 R4
 vreg_zero
-!s110 1574946455
+!s110 1575460003
 !i10b 1
-!s100 D9mmUP:F^4h>Q8Tb4ENZc2
-!s11b <;`?a@1Rd3]E@4BOC2_V>1
-I9DZH<T:?_@Mnb9KVhG_hX3
+!s100 [Ga0L4>fNDcdi<l[]gP;i1
+!s11b ?CKeziGSe`oH^JS[Ja5_`3
+I;F9zf;e0h^TenFdKhz>ck0
 R0
 R1
-w1574946451
+w1575459997
 8/home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_zero.v
 F/home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_zero.v
 L0 1
@@ -91,7 +91,7 @@ R2
 r1
 !s85 0
 31
-!s108 1574946455.000000
+!s108 1575460003.000000
 !s107 /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_zero.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/reg_zero.v|
 !i113 1
@@ -120,14 +120,14 @@ r1
 R3
 R4
 vtestbench
-!s110 1574947763
+!s110 1575461053
 !i10b 1
-!s100 G?A@Z_kF8@TNTi4HMd3X00
-!s11b :11BO=8>7iAVfL<ThE>UV0
-I_nOQdIK2cN[32gO<PnWzD2
+!s100 BOR`:^Wg[nC_9<cRdzRTU1
+!s11b cdnme:0BBgGM3Cgb1>HLo1
+II;g0CVlW=52<:OG`<1ULz2
 R0
 R1
-w1574947757
+w1575460587
 8/home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/testbench.v
 F/home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/testbench.v
 L0 1
@@ -135,7 +135,7 @@ R2
 r1
 !s85 0
 31
-!s108 1574947763.000000
+!s108 1575461053.000000
 !s107 /home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/testbench.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/eduardogusmao/Documents/infra-hw/banco de registradores/projeto/testbench.v|
 !i113 1

@@ -1,17 +1,17 @@
-module banco_reg (sel,RegWrite, selA, selB, data, ReadData1, ReadData2);
- input  [0:5] sel;
- input  [0:5] selA;
- input  [0:5] selB;
- output wire [0:31] ReadData1;
- output wire [0:31] ReadData2;
- input [0:31] data;
- reg enable[0:31];
+module banco_reg (WriteRegister,RegWrite, ReadReagister1, ReadRegister2, data, ReadData1, ReadData2);
+ input  [5:0] WriteRegister;
+ input  [5:0] ReadReagister1;
+ input  [5:0] ReadRegister2;
+ output wire [31:0] ReadData1;
+ output wire [31:0] ReadData2;
+ input [31:0] data;
+ reg enable[31:0];
  integer i;
  integer index;
  integer indexA;
  integer indexB;
  input RegWrite;
- wire [0:31] Q [0:31];
+ wire [31:0] Q [0:31];
  wire readreg;
  assign readreg = ~RegWrite;
 always @(*) begin
@@ -19,7 +19,7 @@ always @(*) begin
     enable[i] =0;
 
 if(RegWrite == 1) begin
-   enable[sel] = 1;
+   enable[WriteRegister] = 1;
 end
 end
 
@@ -57,8 +57,8 @@ reg_32 fp(.in(data),.Q (Q[30]), .writereg (enable[30]),.readreg(readreg));
 reg_32 ra(.in(data),.Q (Q[31]), .writereg (enable[31]),.readreg(readreg));
 
 //always @(*) begin
-assign ReadData1[0:31] = Q[selA];
-assign ReadData2[0:31] = Q[selB];
+assign ReadData1[31:0] = Q[ReadReagister1];
+assign ReadData2[31:0] = Q[ReadRegister2];
 //end
 
 endmodule

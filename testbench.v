@@ -3,10 +3,10 @@ module testbench;
   reg RegWrite;
   reg [5:0] ReadRegister1;
   reg [5:0] ReadRegister2;
-  reg [0:31] WriteData;
+  reg [31:0] WriteData;
   reg x;
-  wire [0:31] ReadData1;
-  wire [0:31] ReadData2;
+  wire [31:0] ReadData1;
+  wire [31:0] ReadData2;
   integer index;
   initial begin
     x = 1;
@@ -44,7 +44,7 @@ module testbench;
 end 
 
  //assign WriteData[1]=data; 
- banco_reg test1(.sel(WriteRegister), .RegWrite(RegWrite), .selA(ReadRegister1), .selB(ReadRegister2), .data(WriteData[0:31]), .ReadData1(ReadData1[0:31]), .ReadData2(ReadData2[0:31]));
+ banco_reg test1(.WriteRegister(WriteRegister), .RegWrite(RegWrite), .ReadRegister1(ReadRegister1), .ReadRegister2(ReadRegister2), .data(WriteData[31:0]), .ReadData1(ReadData1[31:0]), .ReadData2(ReadData2[31:0]));
 
 
   endmodule

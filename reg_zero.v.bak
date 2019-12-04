@@ -1,4 +1,4 @@
 module reg_zero(Q);
  output wire [0:31] Q;
- assignQ = 32'b0;
+ assign Q = 32'b0;
 endmodule
